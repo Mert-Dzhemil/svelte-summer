@@ -3,6 +3,7 @@
   import viteLogo from './assets/vite.svg'
   import heroImg from './assets/hero.png'
   import Counter from './lib/Counter.svelte'
+  import ProfileCard from './ProfileCard.svelte'
 </script>
 
 <section id="center">
@@ -16,6 +17,7 @@
     <p>Edit <code>src/App.svelte</code> and save to test <code>HMR</code></p>
   </div>
   <Counter />
+  <ProfileCard />
 </section>
 
 <div class="ticks"></div>
