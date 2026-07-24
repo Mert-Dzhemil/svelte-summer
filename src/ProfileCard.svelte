@@ -5,7 +5,7 @@
 </script>
 
 <div class="profile-card">
-    <img id="profile-photo" src={avatarUrl} alt="Avatar" class="avatar" />
+    <img src={avatarUrl} alt="Avatar" class="avatar" />
     <h2>{name}</h2>
     <p>{bio}</p>
 </div>
@@ -16,7 +16,7 @@
         border-radius: 8px;
         padding: 16px;
     }
-    #profile-photo {
+    .avatar {
         width: 150px;
         height: 150px;
         border-radius: 50%;
