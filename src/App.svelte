@@ -4,12 +4,12 @@
   import ProfileCard from './ProfileCard.svelte'
 </script>
 
-<p id="center">
+
+<div id="center">
   <Counter />
   <Button />
   <Button label='Click'/>
   <Button label='Click it' color='red'/>
   <Button disabled={true}/>
   <ProfileCard />
-</p>
-
+</div>

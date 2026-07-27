@@ -9,16 +9,13 @@
 
 <div>
     <button on:click={increase}>Count: {count}</button>
-    <p>Doubled number: {doubled}
-    <br>
-    The number is: {isEven ? 'Even' : 'Odd'}
-    </p>
+    <p>Doubled number: {doubled}</p>
+    <p>The number is: {isEven ? 'Even' : 'Odd'}</p>
 </div>
 
 <style>
     button{
         background-color: transparent;
         border-radius: 5px;
-        
     }
 </style>
