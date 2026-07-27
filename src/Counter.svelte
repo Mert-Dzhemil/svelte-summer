@@ -1,6 +1,6 @@
 <script>
     let count = 0;
-    function Increase() {
+    function increase() {
         count++;  
     }
     $: doubled = count * 2;
@@ -8,17 +8,14 @@
 </script>
 
 <div>
-    <button on:click={Increase}>Count: {count}</button>
-    <p>{doubled}
-    <br>
-    {isEven ? 'Even' : 'Odd'}
-    </p>
+    <button on:click={increase}>Count: {count}</button>
+    <p>Doubled number: {doubled}</p>
+    <p>The number is: {isEven ? 'Even' : 'Odd'}</p>
 </div>
 
 <style>
     button{
         background-color: transparent;
         border-radius: 5px;
-        
     }
 </style>
